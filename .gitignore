@@ -1,0 +1,28 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache e artefatos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Relatórios gerados localmente
+resultado*.txt
+
+# Editores e sistema operacional
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+~$*.docx
